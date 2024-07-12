@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ccc;
+}
+
+.box-cover {
+    position: relative;
+    width: 600px;
+    height: 850px;
+    background: url('7043368.jpg') no-repeat center/cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.overlay {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+    color: #d4af37; /* Golden color */
+    font-family: 'Arial', sans-serif;
+}
+
+.text-content h1 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.text-content p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.text-content .date {
+    font-size: 20px;
+}
+
+.text-content .address {
+    font-size: 16px;
+}
